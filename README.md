@@ -1,9 +1,13 @@
 # pobreza-multidimensional-enigh2024
-Repositorio colaborativo para el análisis de pobreza multidimensional con datos de la ENIGH 2024, bajo metodología CONEVAL. Contiene códigos en Stata, R y Python.
+Repositorio colaborativo del grupo técnico para el seguimiento y medición de la pobreza multidimencional con los datos de la ENIGH 2024.
 
 # Medición de la Pobreza Multidimensional (ENIGH 2024)
 
-Este repositorio contiene los códigos necesarios para replicar la medición de la pobreza multidimensional en México, utilizando los microdatos de la ENIGH 2024 y la metodología del CONEVAL.
+Este repositorio reúne los códigos en R, Stata y Python utilizados para replicar la medición de la pobreza multidimensional en México, conforme a la metodología establecida por el CONEVAL.
+
+Su objetivo principal es documentar y comentar el desarrollo de los scripts, con el fin de identificar líneas de código, secuencias y variables que podrían requerir ajustes ante futuras actualizaciones de la ENIGH por parte del INEGI. Entre los elementos que se han señalado como sujetos a posibles modificaciones se encuentran las cuentas de gasto no monetario y la medición del acceso a los servicios de salud.
+
+Por último, se pueden ir actualizando los deflactores en el repositorio.
 
 ## Lenguajes utilizados
 
