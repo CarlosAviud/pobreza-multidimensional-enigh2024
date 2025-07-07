@@ -1,5 +1,5 @@
 # pobreza-multidimensional-enigh2024
-Repositorio colaborativo del grupo técnico para el seguimiento y medición de la pobreza multidimensional con los datos de la ENIGH 2024.
+Repositorio colaborativo del grupo técnico para el seguimiento y medición multidimensional de la pobreza con los datos de la ENIGH 2024.
 
 # Medición Multidimensional de la Pobreza (ENIGH 2024)
 
