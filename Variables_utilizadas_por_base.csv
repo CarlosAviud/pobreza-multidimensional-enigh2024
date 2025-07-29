@@ -1,0 +1,362 @@
+Base de datos,Variable,Pregunta,Descripción,
+Comunes,folioviv,,"Identificador de la vivienda compuesto por dos dígitos con la clave de la entidad federativa, uno con el ámbito (urbano, código diferente a 6; rural, código 6), cuatro dígitos del número consecutivo de la UPM, un dígito de la decena de levantamiento y dos dígitos con un número consecutivo para la vivienda seleccionada.",
+,foliohog,,El código 1 identifica al hogar principal y del 2 al 5 los hogares adicionales.,
+,numren,"¿Cuál es el nombre de los integrantes de este hogar, empezando por la jefa o el jefe?",Número consecutivo en el registro de personas integrantes del hogar.,
+poblacion.dta,parentesco,¿Qué parentesco tiene (NOMBRE) con el jefe(a) del hogar?,"101 Jefe(a)
+201 Esposo(a), compañero(a), cónyuge, pareja, marido, mujer, señor(a), consorte
+202 Concubino(a)
+203 Amasio(a)
+204 Querido(a), amante
+205 Pareja del mismo sexo
+301 Hijo(a), hijo(a) consanguíneo, hijo(a) reconocido
+302 Hijo(a) adoptivo(a)
+303 Hijastro(a), entenado(a)
+304 Hijo(a) de crianza
+305 Hijo(a) recogido(a)",
+,,,"401 Trabajador(a) doméstico(a)
+402 Recamarero(a)
+403 Cocinero(a)
+404 Lavandera(o)
+405 Nana, niñera, nodriza
+406 Mozo
+407 Jardinero(a)
+408 Velador, vigilante
+409 Portero(a)
+410 Chofer
+411 Ama de llaves
+412 Mayordomo
+413 Dama de compañía, acompañante
+421 Esposo(a) del(la) trabajador(a) doméstico(a)
+431 Hijo(a) del(la) trabajador(a) doméstico(a)
+441 Madre, padre del(la) trabajador(a) doméstico(a)
+451 Nieto(a) del(la) trabajador(a) doméstico(a)
+461 Otro pariente del(la) trabajador(a) doméstico(a)",
+,,,"501 No tiene parentesco
+502 Tutor(a)
+503 Tutelado(a), pupilo(a), alumno(a)
+601 Madre, padre
+602 Padrastro, madrastra
+603 Hermano(a)
+604 Medio(a) hermano(a)
+605 Hermanastro(a)
+606 Abuelo(a)
+607 Bisabuelo(a)
+608 Tatarabuelo(a)
+609 Nieto(a)",
+,,,"610 Bisnieto(a)
+611 Tataranieto(a)
+612 Tío(a)
+613 Sobrino(a)
+614 Primo(a)
+615 Suegro(a)
+616 Consuegro(a)
+617 Nuera, yerno
+618 Cuñado(a)
+619 Concuño(a)
+620 Padrino, madrina
+621 Ahijado(a)
+622 Compadre, comadre
+623 Familiar, otro parentesco
+701 Huésped, abonado(a), pensionista
+711 Esposo(a) del(la) huésped
+712 Hijo(a) del(la) huésped
+713 Madre o padre del(la) huésped
+714 Nieto(a) pariente del(la) huésped",
+,,,"715 Otro(a) pariente del(la) huésped
+999 Parentesco no especificado",
+,edad,¿Cuántos años cumplidos tiene (NOMBRE)?,,
+,sexo,(NOMBRE) es …,"1 Hombre
+2 Mujer",
+,asis_esc,¿(NOMBRE) asiste actualmente a la escuela?,"1 Sí
+2 No",
+,nivelaprob,¿Hasta qué año o grado aprobó (NOMBRE) en la escuela?,"0 Ninguno
+1 Preescolar
+2 Primaria
+3 Secundaria
+4 Preparatoria o bachillerato
+5 Normal
+6 Carrera técnica o comercial
+7 Profesional
+8 Maestría
+9 Doctorado",
+,gradoaprob,¿Hasta qué año o grado aprobó (NOMBRE) en la escuela?,"0 Ninguno
+1 Primer año
+2 Segundo año
+3 Tercer año
+4 Cuarto año
+5 Quinto año
+6 Sexto año",
+,antec_esc,¿Qué estudios le pidieron a (NOMBRE) para ingresar a...?,"1 Primaria
+2 Secundaria
+3 Preparatoria o bachillerato
+4 Licenciatura o profesional
+5 Maestría",
+,hablaind,¿(NOMBRE) habla alguna lengua indígena o dialecto?,"1 Sí
+2 No",
+,trabajo_mp,"Durante el mes pasado________________, ¿usted trabajó?","1 Trabajó el mes pasado
+2 No trabajó el mes pasado",
+,act_pnea1,¿Entonces el mes pasado…,"1 Estuvo buscando trabajo
+2 Es pensionado o jubilado
+3 Se dedicó a los quehaceres del hogar
+4 Se dedicó a estudiar
+5 Es una persona con alguna limitación física o mental que le impide trabajar por el resto de su vida
+6 Está en otra situación diferente a las anteriores",
+,act_pnea2,¿Entonces el mes pasado…,"2 Es pensionado o jubilado
+3 Se dedicó a los quehaceres del hogar
+4 Se dedicó a estudiar
+5 Es una persona con alguna limitación física o mental que le impide trabajar por el resto de su vida",
+,pop_insabi,"Actualmente, ¿se encuentra usted afiliado o inscrito al Seguro Popular, o tiene derecho a los servicios del Instituto de Salud para el Bienestar (INSABI)?","1 Sí
+2 No",
+,atemed,¿Está usted afiliado o inscrito para recibir atención médica de parte de alguna institución?,"1 Sí
+2 No",
+,inst_1 ,¿En que institución está usted afiliado o inscrito:,1 En el IMSS,
+,inst_2 ,¿En que institución está usted afiliado o inscrito:,2 En el ISSSTE,
+,inst_3 ,¿En que institución está usted afiliado o inscrito:,3 En el ISSSTE estatal,
+,inst_4 ,¿En que institución está usted afiliado o inscrito:,"4 Por PEMEX, la defensa o la Marina",
+,inst_5 ,¿En que institución está usted afiliado o inscrito:,5 IMSS Prospera/IMSS Bienestar,
+,inst_6,¿En que institución está usted afiliado o inscrito:,6 Otro,
+,inscr_1 ,¿Está usted afiliado o inscrito por:,1 Prestación en el trabajo,
+,inscr_2 ,¿Está usted afiliado o inscrito por:,2 Jubilación o invalidez,
+,inscr_3 ,¿Está usted afiliado o inscrito por:,3 Algún familiar en el hogar,
+,inscr_4 ,¿Está usted afiliado o inscrito por:,4 Muerte del asegurado,
+,inscr_5 ,¿Está usted afiliado o inscrito por:,5 Ser estudiante,
+,inscr_6 ,¿Está usted afiliado o inscrito por:,6 Contratación propia,
+,inscr_7 ,¿Está usted afiliado o inscrito por:,7 Algún familiar de otro hogar,
+,inscr_8,¿Está usted afiliado o inscrito por:,8 No sabe,
+,disc_camin ,"Por algún problema de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE) para caminar, subir o bajar sus piernas?","1 No puede hacerlo
+2 Lo hace con mucha dificultad
+3 Lo hace con poca dificultad
+4 No tiene dificultad",
+,disc_ver ,"Por algún problema de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE) para ver?","1 No puede hacerlo
+2 Lo hace con mucha dificultad
+3 Lo hace con poca dificultad
+4 No tiene dificultad",
+,disc_brazo ,"Por algún problema de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE) para mover o usar brazos o manos?","1 No puede hacerlo
+2 Lo hace con mucha dificultad
+3 Lo hace con poca dificultad
+4 No tiene dificultad",
+,disc_apren ,"Por algún problema de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE) para aprender, recordar o concentrarse?","1 No puede hacerlo
+2 Lo hace con mucha dificultad
+3 Lo hace con poca dificultad
+4 No tiene dificultad",
+,disc_oir ,"Por algún problema de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE) para escuchar (aunque use aparato auditivo)?","1 No puede hacerlo
+2 Lo hace con mucha dificultad
+3 Lo hace con poca dificultad
+4 No tiene dificultad",
+,disc_vest ,"Por algún problema de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE) para bañarse, vestirse o comer?","1 No puede hacerlo
+2 Lo hace con mucha dificultad
+3 Lo hace con poca dificultad
+4 No tiene dificultad",
+,disc_habla ,"Por algún problema de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE) para hablar o comunicarse?","1 No puede hacerlo
+2 Lo hace con mucha dificultad
+3 Lo hace con poca dificultad
+4 No tiene dificultad",
+,disc_acti,"Por algún problema de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE) para realizar sus actividades diarias por problemas emocionales o mentales?","1 No puede hacerlo
+2 Lo hace con mucha dificultad
+3 Lo hace con poca dificultad
+4 No tiene dificultad",
+,segvol_1 ,¿Tiene usted contratado voluntariamente un…,"1 SAR, AFORE o fondo de pensiones",
+,segvol_2 ,¿Tiene usted contratado voluntariamente un…,2 Seguro privado de gastos médicos,
+,segvol_3 ,¿Tiene usted contratado voluntariamente un…,3 Seguro de vida,
+,segvol_4 ,¿Tiene usted contratado voluntariamente un…,4 Seguro de invalidez,
+,segvol_5 ,¿Tiene usted contratado voluntariamente un…,5 Otro tipo de seguro,
+,segvol_6 ,¿Tiene usted contratado voluntariamente un…,6 Ninguno de los anteriores,
+,segvol_7,¿Tiene usted contratado voluntariamente un…,7 No sabe,
+trabajos.dta,subor,¿En este trabajo tuvo un jefe(a) o superior?,"1 Sí
+2 No",
+,indep,"Entonces, ¿se dedicó a un negocio o actividad por su cuenta?","1 Sí
+2 No",
+,tiene_suel,"¿En este trabajo usted recibió o tuvo asignado un
+sueldo?","1 Sí
+2 No",
+,pago,En ese trabajo…,"1 Recibe un pago
+2 Es un trabajador(a) sin pago en un negocio del hogar
+3 Es un trabajador(a) sin pago en un negocio que no es del hogar",
+,id_trabajo,¿Cuántos trabajos tuvo el mes pasado?,"1 Trabajo principal
+2 Trabajo secundario",
+,pres_1 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?","01 Incapacidad en caso de enfermedad, accidente o maternidad",
+,pres_2 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",02 Aguinaldo,
+,pres_3 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",03 Vacaciones con goce de sueldo,
+,pres_4 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",04 Reparto de utilidades,
+,pres_5 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",05 Crédito de vivienda,
+,pres_6 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",06 Guarderías y estancias infantiles,
+,pres_7 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",07 Tiempo para cuidados maternos o paternos,
+,pres_8 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",08 SAR o AFORE,
+,pres_9 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",09 Seguro de vida,
+,pres_10 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",10 Préstamos personales y/o caja de ahorro,
+,pres_11 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",11 Prima vacacional,
+,pres_12 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",12 Becas y apoyos educativos,
+,pres_13 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",13 Servicio de comedor,
+,pres_14 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",14 Crédito FONACOT,
+,pres_15 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",15 Ayuda de despensas,
+,pres_16 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?","16 Ayuda o exención en el pago de luz, agua, teléfono, etcétera",
+,pres_17 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",17 Pensión en caso de invalidez,
+,pres_18 ,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",18 Pensión para sus familiares en caso de fallecimiento,
+,pres_19,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",19 Otras prestaciones,
+,pres_20,"¿En este trabajo le dieron las siguientes prestaciones, aunque no las haya utilizado?",20 En el trabajo que tuvo no le dieron prestaciones,
+ingresos.dta,clave,,"Fuente de donde proviene el ingreso de la
+persona.",
+,mes_1 ,Ingreso del mes pasado,"07 Julio
+08 Agosto
+09 Septiembre
+10 Octubre",
+,mes_2 ,Segundo mes pasado a la entrevista,"06 Junio
+07 Julio
+08 Agosto
+09 Septiembre",
+,mes_3 ,Tercer mes pasado a la entrevista,"05 Mayo
+06 Junio
+07 Julio
+08 Agosto",
+,mes_4 ,Cuarto mes pasado a la entrevista.,"04 Abril
+05 Mayo
+06 Junio
+07 Julio",
+,mes_5 ,Quinto mes pasado a la entrevista,"03 Marzo
+04 Abril
+05 Mayo
+06 Junio",
+,mes_6,Sexto mes pasado a la entrevista.,"02 Febrero
+03 Marzo
+04 Abril
+05 Mayo",
+,ing_1 ,¿Cuánto dinero recibió?,Ingreso del primer mes pasado a la entrevista,
+,ing_2 ,¿Cuánto dinero recibió?,Ingreso del segundo mes pasado a la entrevista.,
+,ing_3 ,¿Cuánto dinero recibió?,Ingreso del tercer mes pasado a la entrevista,
+,ing_4 ,¿Cuánto dinero recibió?,Ingreso del cuarto mes pasado a la entrevista,
+,ing_5 ,¿Cuánto dinero recibió?,Ingreso del quinto mes pasado a la entrevista,
+,ing_6,¿Cuánto dinero recibió?,Ingreso del sexto mes pasado a la entrevista,
+viviendas.dta,mat_pisos,¿De qué material es la mayor parte del piso de esta vivienda?,"1 Tierra
+2 Cemento o firme
+3 Madera, mosaico u otro recubrimiento",
+,mat_techos,¿De qué material es la mayor parte del techo de esta vivienda?,"01 Material de desecho
+02 Lámina de cartón
+03 Lámina metálica
+04 Lámina de asbesto
+05 Lámina de fibrocemento ondulada (techo fijo)
+06 Palma o paja
+07 Madera o tejamanil
+08 Terrado con viguería
+09 Teja
+10 Losa de concreto o viguetas con bovedilla",
+,mat_pared,¿De qué material es la mayor parte de las paredes o muros de esta vivienda?,"1 Material de desecho
+2 Lámina de cartón
+3 Lámina de asbesto o metálica
+4 Carrizo bambú o palma
+5 Embarro o bajareque
+6 Madera
+7 Adobe
+8 Tabique, ladrillo, block, piedra, cantera, cemento o concreto",
+,tot_resid,,Número de personas que habitan la vivienda,
+,num_cuarto,"¿Cuántos cuartos tiene en total esta vivienda, contando la cocina? (no cuente pasillos ni baños)?","Número total de cuartos que tiene la vivienda, independientemente de su uso.",
+,disp_agua,,"1 Agua entubada dentro de la vivienda
+2 Agua entubada fuera de la vivienda, pero dentro del terreno
+3 Agua entubada de llave pública (o hidrante)
+4 Captadores de agua de lluvia
+5 Agua entubada que acarrean de otra vivienda
+6 Agua de pipa
+7 Agua de un pozo, río, lago, arroyo u otra",
+,procaptar,Indica si la vivienda es objetivo del Programa Nacional para Captación de Agua de Lluvia y Ecotecnias en Zonas Rurales (PROCAPTAR) de la Comisión Nacional del Agua (CONAGUA).,"0 No aplica
+1 Vivienda con precipitación pluvial mayor o igual a 1500 mm",
+,drenaje,"¿Esta vivienda tiene drenaje o desagüe conectado
+a…","1 La red pública
+2 Una fosa séptica
+3 Una tubería que va a dar a una barranca o grieta
+4 Una tubería que va a dar a un río, lago o mar
+5 No tiene drenaje",
+,disp_elect,¿En esta vivienda la luz eléctrica la obtienen…,"1 Del servicio público
+2 De una planta particular
+3 De panel solar
+4 De otra fuente
+5 No tiene luz eléctrica",
+,combustible,¿El combustible que más usan para cocinar es…,"1 Leña
+2 Carbón
+3 Gas de tanque
+4 Gas natural o de tubería
+5 Electricidad
+6 Otro combustible",
+,estufa_chi,¿La estufa (fogón) de leña o carbón con la que cocinan tiene chimenea?,"1 Sí
+2 No",
+hogares.dta,acc_alim1,"En los últimos tres meses, por falta de dinero o recursos ¿alguna vez usted se preocupó de que la comida se acabara?","1 Sí
+2 No",
+,acc_alim2,"En los últimos tres meses, por falta de dinero o recursos ¿alguna vez se quedaron sin comida?","1 Sí
+2 No",
+,acc_alim3,"En los últimos tres meses, ¿alguna vez se quedaron sin dinero o recursos para obtener una alimentación sana y variada?","1 Sí
+2 No",
+,acc_alim4,"En los últimos tres meses, por falta de dinero o
+recursos ¿alguna vez usted o algún adulto en su hogar tuvo una alimentación basada en muy poca variedad de alimentos?","1 Sí
+2 No",
+,acc_alim5,"En los últimos tres meses, por falta de dinero o recursos ¿alguna vez usted o algún adulto en su hogar dejó de desayunar, comer o cenar?","1 Sí
+2 No",
+,acc_alim6,"En los últimos tres meses, por falta de dinero o recursos ¿alguna vez usted o algún adulto en su hogar comió menos de lo que usted piensa debía comer?","1 Sí
+2 No",
+,acc_alim7,"En los últimos tres meses, por falta de dinero o recursos, ¿alguna vez usted o algún adulto en su hogar sintió hambre pero no comió?","1 Sí
+2 No",
+,acc_alim8,"En los últimos tres meses, por falta de dinero o recursos ¿alguna vez usted o algún adulto en su hogar solo comió una vez al día o dejó de comer todo un día?","1 Sí
+2 No",
+,acc_alim9,"En los últimos tres meses, por falta de dinero o recursos ¿alguna vez tuvieron que hacer algo que hubieran preferido no hacer para conseguir comida, tal como mendigar (pedir limosna) o mandar a los niños a trabajar?","1 Sí
+2 No",
+,acc_alim10,"En los últimos tres meses, por falta de dinero o recursos ¿alguna vez algún menor de 18 años en su hogar dejó de tener una alimentación sana y variedad?","1 Sí
+2 No",
+,acc_alim11,"En los últimos tres meses, por falta de dinero o recursos ¿alguna vez algún menor de 18 años en su hogar tuvo una alimentación basada en muy poca variedad?","1 Sí
+2 No",
+,acc_alim12,"En los últimos tres meses, por falta de dinero o recursos ¿alguna vez algún menor de 18 años en su hogar comió menos de lo que debía?","1 Sí
+2 No",
+,acc_alim13,"En los últimos tres meses, por falta de dinero o recursos ¿alguna vez tuvieron que disminuir la cantidad servida en las comidas a algún menor de 18 años del hogar?","1 Sí
+2 No",
+,acc_alim14,"En los últimos tres meses, por falta de dinero o recursos ¿alguna vez algún menor de 18 años en su hogar sintió hambre pero no comió?","1 Sí
+2 No",
+,acc_alim15,"En los últimos tres meses, por falta de dinero o recursos ¿alguna vez algún menor de 18 años en su hogar se acostó con hambre?","1 Sí
+2 No",
+,acc_alim16,"En los últimos tres meses, por falta de dinero o recursos ¿alguna vez algún menor de 18 años en su hogar comió una vez al día o dejó de comer todo un día?","1 Sí
+2 No",
+,alim17_1,"Durante los últimos siete días, ¿cuántos días comieron tortilla, alimentos hechos de masa de maíz, pan (blanco, integral, de caja, rústico, dulce), galletas, cereales de caja, pasta para sopa o cualquier otro alimento hecho de maíz, trigo, arroz, avena, salvado, etcétera?",Número de días que consumieron el tipo de alimento,
+,alim17_2,"Durante los últimos siete días, ¿cuántos días comieron papas, camote, u otro alimento proveniente de raíces o tubérculos?",Número de días que consumieron el tipo de alimento,
+,alim17_3,"Durante los últimos siete días, ¿cuántos días comieron verduras (frescas, en guisados, sopas, salsas, enlatadas o deshidratadas)?",Número de días que consumieron el tipo de alimento,
+,alim17_4,"Durante los últimos siete días, ¿cuántos días comieron frutas (frescas, enlatadas, deshidratadas, en postres o ensaladas)?",Número de días que consumieron el tipo de alimento,
+,alim17_5,"Durante los últimos siete días, ¿cuántos días comieron carne de vaca, cerdo, cordero, cabra, conejo, pollo, pato u otras aves?, ¿hígado, riñón, corazón u otras vísceras?",Número de días que consumieron el tipo de alimento,
+,alim17_6,"Durante los últimos siete días, ¿cuántos días comieron huevos (de gallina, codorniz, pato u otras aves)?",Número de días que consumieron el tipo de alimento,
+,alim17_7,"Durante los últimos siete días, ¿cuántos días comieron pescado, sardinas, atún, camarón o cualquier otro marisco fresco o seco?",Número de días que consumieron el tipo de alimento,
+,alim17_8,"Durante los últimos siete días, ¿cuántos días comieron alimentos a base de frijoles, lentejas, habas, garbanzos, soya, cacahuates, pepitas, granola, palanquetas, nueces, amaranto, frutos secos?",Número de días que consumieron el tipo de alimento,
+,alim17_9,"Durante los últimos siete días, ¿cuántos días comieron queso, yogurt, leche u otros productos lácteos?",Número de días que consumieron el tipo de alimento,
+,alim17_10,"Durante los últimos siete días, ¿cuántos días comieron cualquier tipo de aceite (soya, cártamo, canola, girasol, maíz); mantequilla, mantequilla de cacahuate, mayonesa, crema o manteca?",Número de días que consumieron el tipo de alimento,
+,alim17_11,"Durante los últimos siete días, ¿cuántos días comieron azúcar o miel (de abeja o maple), jarabe de maíz, gelatina, mermelada, cajeta, polvo para preparar bebidas, flan, dulces, chocolates, refrescos o bebidas industrializadas?",Número de días que consumieron el tipo de alimento,
+,alim17_12,"Durante los últimos siete días, ¿cuántos días comieron otros alimentos como condimentos, café, té?",Número de días que consumieron el tipo de alimento,
+gastoshogar.dta,frecuencia,¿Con qué frecuencia lo recibe?,"0 No aplica
+1 Diario
+2 Cada Semana
+3 Una vez al mes
+4 Cada año
+5 Lo recibió una sola vez
+6 Otros",
+,gas_nm_tri,,Gasto no monetario trimestral normalizado de acuerdo a la decena de levantamiento.,
+,tipo_gasto,Tipo de gasto monetario y no monetario,"G1 Gasto monetario en bienes y servicios para el hogar
+G2 Gasto monetario en bienes y servicios para otro hogar
+G3 Gasto no monetario procedente de autoconsumo
+G5 Gasto no monetario por regalos recibidos de otro hogar
+G6 Gasto no monetario por transferencias de instituciones
+G7 Gasto imputado por estimación del alquiler",
+,clave,,"Producto, bien o servicio adquirido por los integrantes del hogar en los periodos de referencia.",
+gastospersona.dta,frec_rem,,"1 Una vez a la semana
+2 Dos veces a la semana
+3 Tres veces a la semana
+4 Cuatro veces a la semana
+5 Cinco veces a la semana
+6 Seis veces a la semana
+7 Una vez a la quincena
+8 Una vez al mes
+9 Otros",
+,gas_nm_tri,,Gasto no monetario trimestral normalizado de acuerdo a la decena de levantamiento.,
+,tipo_gasto,,"G1 Gasto monetario en bienes y servicios para el hogar
+G4 Gasto no monetario por remuneraciones en especie",
+,clave,,"Destino del gasto mensual, trimestral y semestral.",
+concentradohogar.dta,tam_loc,Tamaño de la localidad por número de habitantes.,"1 Localidades con 100 000 y más habitantes
+2 Localidades con 15 000 a 99 999 habitantes
+3 Localidades con 2 500 a 14 999 habitantes
+4 Localidades con menos de 2 500 habitantes",
+,factor ,,Factor de expansión,
+,tot_integ ,,"Número de personas pertenecientes a este parentesco inicie con 1, 2, 3, 5 o 6. hogar, sin considerar a los trabajadores domésticos y a los familiares de estos ni a los
+huéspedes.",
+,est_dis ,,Son los estratos seleccionados en la segunda etapa del muestreo y corresponden a grupos de UPMs de acuerdo con su estrato geográfico (entidad-ámbito-zona).,
+,upm ,,Las unidades primarias de muestreo están constituidas por agrupaciones de viviendas con características diferenciadas dependiendo del ámbito al que pertenecen.,
+,ubica_geo,,"Contiene la ubicación geográfica de la vivienda. Los dos primeros dígitos representan la clave de la entidad y los siguientes tres la clave del municipio. Estas corresponden al Catálogo de claves de entidades federativas, municipios y localidades, que está disponible en el sitio del INEGI.",
